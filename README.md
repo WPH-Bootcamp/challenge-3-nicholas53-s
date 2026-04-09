@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZqCNSz11)
+
 # Assignment 3 - Landing Page dengan Tailwind CSS
 
 ---
@@ -9,7 +10,7 @@
 >
 > Minggu ini kita naik level. Kamu akan membangun ulang desain yang sama, tapi kali ini menggunakan **Tailwind CSS**.
 >
-> Tailwind adalah salah satu framework CSS yang paling banyak dipakai di industri saat ini. Belajar Tailwind sekarang akan sangat membantumu di project-project nyata ke depannya. Luangkan waktu untuk memahami *kenapa* setiap utility class itu bekerja, bukan sekadar *apa* fungsinya.
+> Tailwind adalah salah satu framework CSS yang paling banyak dipakai di industri saat ini. Belajar Tailwind sekarang akan sangat membantumu di project-project nyata ke depannya. Luangkan waktu untuk memahami _kenapa_ setiap utility class itu bekerja, bukan sekadar _apa_ fungsinya.
 >
 > Ikuti prosesnya, tetap penasaran, dan jangan ragu untuk bertanya kalau kamu stuck. Kamu pasti bisa!
 >
@@ -20,11 +21,11 @@
 
 ## Gambaran Umum
 
-| | |
-|---|---|
-| **Week** | 3 |
-| **Branch** | `feat/tailwind` |
-| **Tech Stack** | HTML, Tailwind CSS |
+|                      |                                                                                                                        |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Week**             | 3                                                                                                                      |
+| **Branch**           | `feat/tailwind`                                                                                                        |
+| **Tech Stack**       | HTML, Tailwind CSS                                                                                                     |
 | **Referensi Desain** | [Buka Figma](https://www.figma.com/design/V8GNQPn1cu1NknDYWKrE49/Challenge-2?node-id=8411-143671&t=Fi9CakO96MRdz4g1-1) |
 
 ---
@@ -70,11 +71,11 @@ wph-assignment-3/
 
 Halaman kamu harus memiliki ketiga bagian ini:
 
-| Komponen | Keterangan |
-|---|---|
-| **Navbar** | Navigasi halaman, responsif di mobile |
+| Komponen         | Keterangan                                                   |
+| ---------------- | ------------------------------------------------------------ |
+| **Navbar**       | Navigasi halaman, responsif di mobile                        |
 | **Hero Section** | Bagian utama berisi headline, teks pendukung, dan tombol CTA |
-| **Footer** | Berisi link, copyright, atau informasi kontak |
+| **Footer**       | Berisi link, copyright, atau informasi kontak                |
 
 Kamu boleh menambahkan section lain dari desain Figma kamu. Ketiga komponen di atas adalah minimal.
 
@@ -118,15 +119,15 @@ Berikut penjelasan dari perintah yang dijalankan di balik layar:
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ```
 
-| Bagian | Artinya |
-|---|---|
-| `-i ./src/input.css` | File CSS input yang berisi `@import "tailwindcss"` |
-| `-o ./src/output.css` | File CSS output yang akan dimuat oleh HTML kamu |
-| `--watch` | Otomatis rebuild setiap kali ada file yang disimpan |
+| Bagian                | Artinya                                             |
+| --------------------- | --------------------------------------------------- |
+| `-i ./src/input.css`  | File CSS input yang berisi `@import "tailwindcss"`  |
+| `-o ./src/output.css` | File CSS output yang akan dimuat oleh HTML kamu     |
+| `--watch`             | Otomatis rebuild setiap kali ada file yang disimpan |
 
 ### Langkah 4 - Pelajari Desain Figma Sebelum Mulai Coding
 
-Buka file [Figma](https://www.figma.com/design/V8GNQPn1cu1NknDYWKrE49/Challenge-2?node-id=8411-143671&t=Fi9CakO96MRdz4g1-1) dan perhatikan hal-hal berikut sebelum menulis satu baris pun kode:
+Buka file [Figma](https://www.figma.com/design/V8GNQPn1cu1NknDYWKrE49/Challenge-2?node-id=8411-143671&t=Fi9CakO96MRdz4 g1-1) dan perhatikan hal-hal berikut sebelum menulis satu baris pun kode:
 
 - Warna yang digunakan (kode hex)
 - Ukuran dan ketebalan font
@@ -149,11 +150,11 @@ Jangan langsung mengerjakan semua sekaligus. Kerjakan satu section dulu sampai s
 
 Sebelum submit, pastikan halaman kamu terlihat baik di semua ukuran layar berikut:
 
-| Breakpoint | Lebar Layar | Prefix Tailwind |
-|---|---|---|
-| Mobile | kurang dari 640px | (default, tanpa prefix) |
-| Tablet | 768px ke atas | `md:` |
-| Desktop | 1024px ke atas | `lg:` |
+| Breakpoint | Lebar Layar       | Prefix Tailwind         |
+| ---------- | ----------------- | ----------------------- |
+| Mobile     | kurang dari 640px | (default, tanpa prefix) |
+| Tablet     | 768px ke atas     | `md:`                   |
+| Desktop    | 1024px ke atas    | `lg:`                   |
 
 Cara cek: buka Chrome, klik kanan di halaman, pilih **Inspect**, lalu aktifkan **Toggle Device Toolbar** (ikon handphone di pojok kiri atas panel DevTools).
 
@@ -191,12 +192,14 @@ Pastikan semua poin ini sudah terpenuhi sebelum kamu mengumpulkan:
 ## Tips dan Kesalahan Umum
 
 **Yang harus kamu lakukan:**
+
 - Selalu gunakan prefix responsif Tailwind: `sm:`, `md:`, `lg:`
 - Gunakan utility `flex` dan `grid` untuk mengatur layout
 - Buka [dokumentasi Tailwind](https://tailwindcss.com/docs) sambil bekerja, jadikan referensi utama
 - Usahakan spacing dan ukuran font semirip mungkin dengan desain Figma
 
 **Yang harus kamu hindari:**
+
 - Menulis CSS di dalam tag `<style>` (kecuali untuk `@apply`)
 - Menggunakan atribut `style=""` langsung di HTML
 - Tidak mengecek tampilan mobile sebelum submit
@@ -206,25 +209,25 @@ Pastikan semua poin ini sudah terpenuhi sebelum kamu mengumpulkan:
 
 ## Referensi
 
-| Sumber | Link |
-|---|---|
-| Dokumentasi Tailwind CSS | https://tailwindcss.com/docs |
-| Tailwind Cheat Sheet | https://nerdcave.com/tailwind-cheat-sheet |
-| Referensi Desain Figma | https://www.figma.com/design/V8GNQPn1cu1NknDYWKrE49/Challenge-2?node-id=8411-143671&t=Fi9CakO96MRdz4g1-1 |
-| Chrome DevTools (Cek Responsif) | https://developer.chrome.com/docs/devtools/device-mode |
+| Sumber                          | Link                                                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Dokumentasi Tailwind CSS        | https://tailwindcss.com/docs                                                                             |
+| Tailwind Cheat Sheet            | https://nerdcave.com/tailwind-cheat-sheet                                                                |
+| Referensi Desain Figma          | https://www.figma.com/design/V8GNQPn1cu1NknDYWKrE49/Challenge-2?node-id=8411-143671&t=Fi9CakO96MRdz4g1-1 |
+| Chrome DevTools (Cek Responsif) | https://developer.chrome.com/docs/devtools/device-mode                                                   |
 
 ---
 
 ## Kriteria Penilaian
 
-| Kriteria | Bobot |
-|---|---|
-| Penggunaan Tailwind CSS yang benar (tidak ada custom CSS) | 30% |
-| Desain responsif (mobile dan desktop) | 25% |
-| Kemiripan visual dengan desain Figma | 25% |
-| Kebersihan dan kerapian kode | 10% |
-| Git workflow yang benar dan Pull Request | 10% |
+| Kriteria                                                  | Bobot |
+| --------------------------------------------------------- | ----- |
+| Penggunaan Tailwind CSS yang benar (tidak ada custom CSS) | 30%   |
+| Desain responsif (mobile dan desktop)                     | 25%   |
+| Kemiripan visual dengan desain Figma                      | 25%   |
+| Kebersihan dan kerapian kode                              | 10%   |
+| Git workflow yang benar dan Pull Request                  | 10%   |
 
 ---
 
-*Semangat, kamu pasti bisa. - Henry*
+_Semangat, kamu pasti bisa. - Henry_
