@@ -7,7 +7,7 @@
     <link href="./output.css" rel="stylesheet" />
     
   </head>
-  <body>
+  <body class="font-primary">
     <!-- ========== NAVBAR ========== -->
     <header class="bg-black text-white px-8 py-4 relative">
       <div class="flex items-center">
@@ -107,7 +107,7 @@
 
       <section
         id="about"
-        class="relative items-center bg-black px-20 py-20 overflow-hidden"
+        class="relative items-center bg-black px-20 py-10 md:py-20 overflow-hidden"
       >
         <div
           class="max-w-360 mx-auto w-full text-center justify-center flex-col items-center gap-10"
@@ -130,7 +130,7 @@
 
       <section
         id="services"
-        class="relative items-center bg-black px-20 py-20 overflow-hidden"
+        class="relative items-center bg-black px-20 py-10 md:py-20 overflow-hidden"
       >
         <div class="relative z-10 gap-4 mb-16">
           <h2 class="text-center text-white md:text-[40px] text-[28px] font-bold">
@@ -149,7 +149,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white">Web Development</h3>
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold">Web Development</h3>
             <p class="text-[#717680] text-[14px]">
               Modern websites using HTML, CSS, JavaScript, and frameworks.
             </p>
@@ -162,7 +162,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white">App Development</h3>
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold">App Development</h3>
             <p class="text-[#717680] text-[14px]">
               Mobile and desktop apps tailored for your needs.
             </p>
@@ -175,7 +175,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white">AI Integration</h3>
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold">AI Integration</h3>
             <p class="text-[#717680] text-[14px]">
               Smart solutions using AI-powered tools and automation.
             </p>
@@ -188,7 +188,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white">UI/UX Design</h3>
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold">UI/UX Design</h3>
             <p class="text-[#717680] text-[14px]">
               Clean and functional designs for better user experience.
             </p>
@@ -202,7 +202,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white text-center">
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold text-center">
               Landing Page Design
             </h3>
             <p class="text-[#717680] text-[14px] text-center">
@@ -217,7 +217,7 @@
                 alt="icon"
               />
             </div>
-            <h3 class="md:text-[20px] text-[18px] text-white">CMS Integration</h3>
+            <h3 class="md:text-[20px] text-[18px] text-white font-bold">CMS Integration</h3>
             <p class="text-[#717680] text-[14px]">
               Easy-to-manage websites with WordPress or Webflow.
             </p>
@@ -228,7 +228,7 @@
 
     <!-- ========== PORTOFOLIO ========== -->
 
-    <section id="work" class="bg-black px-20 py-20">
+    <section id="work" class="bg-black px-20 py-10 md:py-20">
       <h2 class="md:text-[40px] text-[28px] text-white font-bold font text-center">
         Our Work
       </h2>
@@ -260,7 +260,7 @@
 
     <!-- ========== TEAM ========== -->
 
-    <section id="team" class="bg-black px-20 py-20">
+    <section id="team" class="bg-black px-20 py-10 md:py-20">
             <div class="team-header">
             <h2 class="md:text-[40px] text-[28px] text-white font-bold font text-center">Meet the Team</h2>
             <p class="text-[#717680] md:text-[20px] text-[14px] text-center">A group of future-ready tech makers.</p>
@@ -295,7 +295,7 @@
 
     <!-- ========== CONTACT ========== -->
 
-    <section id="contact" class="bg-black px-20 py-20">
+    <section id="contact" class="bg-black px-20 py-10 md:py-20">
             
             <h2 class="md:text-[40px] text-[28px] text-white font-bold font text-center">Let's Collaborate</h2>
             <p class="text-[#717680] md:text-[20px] text-[14px] text-center">Need a tech team? We're ready to help</p>
@@ -312,7 +312,7 @@
                 </div>
                 <div class="form-group">
                     <label for="message" class="text-white">Message</label>
-                    <textarea id="message" placeholder="Enter your message"></textarea>
+                    <textarea id="message" class="resize-none h-[134px]" placeholder="Enter your message"></textarea>
                 </div>
                 <button type="submit" class="btn-submit">Send</button>
             </form>
